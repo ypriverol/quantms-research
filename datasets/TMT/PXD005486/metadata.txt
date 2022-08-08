@@ -1,0 +1,11 @@
+measure	sample	condition	replicate
+Reporter intensity 0	c0_r1	c0	
+Reporter intensity 1	c20_r1	c20	
+Reporter intensity 2	c2_r1	c2	
+Reporter intensity 3	c0_r2	c0	
+Reporter intensity 4	c2_r2	c2	
+Reporter intensity 5	c1_r1	c1	
+Reporter intensity 6	c4_r1	c4	
+Reporter intensity 7	c40_r1	c40	
+Reporter intensity 8	c1_r2	c1	
+Reporter intensity 9	c4_r2	c4	
