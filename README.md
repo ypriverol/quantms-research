@@ -36,7 +36,7 @@ All datasets are directly from quantms and original result/MaxQuant based on sam
 
 ### LFQ-DIA
 
-Pending
+- [PXD026600](http://proteomecentral.proteomexchange.org/dataset/PXD026600): This large dataset includes 96 DIA .raw files acquired from a complex proteomic standard composed of an E.coli protein background spiked-in with 8 different concentrations of 48 human proteins (UPS1 Sigma). These 8 samples were analyzed in triplicates on an Orbitrap mass spectrometer with 4 different DIA window schemes.
 
 ## Description of notebooks
 
@@ -70,4 +70,4 @@ All analysis results are directly from `datasets/` folder.
 
 ### LFQ-DIA
 
-Pending
+- [PXD026600 Benchmark](./notebooks/LFQ-DIA/PXD026600Benchmark.ipynb)
