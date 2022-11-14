@@ -1,9 +1,0 @@
-raw.file	condition	replicate
-ups1_01	ups1	1
-ups1_02	ups1	2
-ups1_03	ups1	3
-ups1_04	ups1	4
-ups2_01	ups2	1
-ups2_02	ups2	2
-ups2_03	ups2	3
-ups2_04	ups2	4
