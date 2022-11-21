@@ -1,0 +1,9 @@
+﻿experiment,measure,sample,condition,replicate
+UPS1_01,Intensity,UPS1_01,UPS1,1
+UPS1_02,Intensity,UPS1_02,UPS1,2
+UPS1_03,Intensity,UPS1_03,UPS1,3
+UPS1_04,Intensity,UPS1_04,UPS1,4
+UPS2_01,Intensity,UPS2_01,UPS2,1
+UPS2_02,Intensity,UPS2_02,UPS2,2
+UPS2_03,Intensity,UPS2_03,UPS2,3
+UPS2_04,Intensity,UPS2_04,UPS2,4
