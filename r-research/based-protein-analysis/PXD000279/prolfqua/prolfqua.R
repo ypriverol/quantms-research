@@ -130,3 +130,17 @@ plotter$ma_plotly()
 
 #write.csv(v1$FDR$data, "prolfqua-WaldTest.csv")
 write.csv(v2$FDR$data, "prolfqua-WaldTest_moderated.csv")
+
+
+## Contrasts with missing value imputation
+mC <- ContrastsSimpleImpute$new(lfqdata = transformed, contrasts = Contrasts)
+colnames(mC$get_contrasts())
+
+merged <- prolfqua::addContrastResults(prefer = contr,add = mC)$merged
+
+plotter <- merged$get_Plotter()
+
+tmp <- plotter$volcano()
+tmp$FDR
+
+write.csv(tmp$FDR$data, "prolfqua-WaldTest-GMI.csv")
