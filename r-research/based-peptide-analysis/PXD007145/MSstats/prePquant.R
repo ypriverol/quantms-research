@@ -11,9 +11,9 @@ fileData <- OpenMStoMSstatsFormat(raw.om)
 
 # maxquant
 #evidence
-mq_ev = data.table::fread("evidence.txt")
+mq_ev = data.table::fread("evidence_filter.txt")
 #proteingroups
-mq_pg = data.table::fread("proteinGroups.txt")
+mq_pg = data.table::fread("proteinGroups_filter.txt")
 #annotation
 annot = data.table::fread("2-experimentalDesign.txt")
 maxq_imported = MaxQtoMSstatsFormat(mq_ev, annot, mq_pg, use_log_file = FALSE)
