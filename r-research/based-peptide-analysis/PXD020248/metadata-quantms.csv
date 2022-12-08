@@ -1,0 +1,13 @@
+﻿experiment,measure,sample,condition,replicate
+BaP_BP1,Intensity,BaP_BP1,BAP,1
+BaP_BP2,Intensity,BaP_BP2,BAP,2
+BaP_BP3,Intensity,BaP_BP3,BAP,3
+BaP_BP4,Intensity,BaP_BP4,BAP,4
+BaP_BP5,Intensity,BaP_BP5,BAP,5
+BaP_BP6,Intensity,BaP_BP6,BAP,6
+DMSO_BP1,Intensity,DMSO_BP1,DMSO,1
+DMSO_BP2,Intensity,DMSO_BP2,DMSO,2
+DMSO_BP3,Intensity,DMSO_BP3,DMSO,3
+DMSO_BP4,Intensity,DMSO_BP4,DMSO,4
+DMSO_BP5,Intensity,DMSO_BP5,DMSO,5
+DMSO_BP6,Intensity,DMSO_BP6,DMSO,6
