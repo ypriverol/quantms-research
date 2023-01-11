@@ -39,6 +39,59 @@ The following datasets were used to perform the analysis:
 
 - [Perseus](https://maxquant.net/perseus/) is designed for DE analysis of quantitative results in the MaxQuant ecosystem. Perseus is a desktop application which offers a wide variety of algorithms for MaxQuant data normalization, imputation, batch correction and differential expression analysis.  Users need to manually annotate the condition during data processing and can choose different types of intensity: raw intensities, LFQ intensity or IBAQ values. 
 
+## Quantification Results
+
+### PXD000279 
+
+- [MaxQuant output](https://github.com/ypriverol/quantms-research/tree/main/r-research/based-peptide-analysis/PXD000279). 
+  - [peptides.txt](https://github.com/ypriverol/quantms-research/blob/main/r-research/based-peptide-analysis/PXD000279/peptides.txt)
+  - [proteinGroups.txt](https://github.com/ypriverol/quantms-research/blob/main/r-research/based-peptide-analysis/PXD000279/proteinGroups.txt)
+
+- [quantms output](https://github.com/ypriverol/quantms-research/tree/main/datasets/LFQ-DDA/PXD000279/UniprotSwiss-MBR).
+  - [mzTab](). 
+  - [msstats input]()
+
+### PXD007145
+
+- [MaxQuant output](https://github.com/ypriverol/quantms-research/tree/main/r-research/based-peptide-analysis/PXD007145). 
+  - [peptides.txt](https://github.com/ypriverol/quantms-research/blob/main/r-research/based-peptide-analysis/PXD007145/peptides.txt)
+  - [proteinGroups.txt](https://github.com/ypriverol/quantms-research/blob/main/r-research/based-peptide-analysis/PXD007145/proteinGroups.txt)
+
+- [quantms output]().
+  - [mzTab](). 
+  - [msstats input]()
+
+### PXD020248
+
+- [MaxQuant output](https://github.com/ypriverol/quantms-research/tree/main/r-research/based-peptide-analysis/PXD020248). 
+  - [peptides.txt](https://github.com/ypriverol/quantms-research/blob/main/r-research/based-peptide-analysis/PXD020248/peptides.txt)
+  - [proteinGroups.txt](https://github.com/ypriverol/quantms-research/blob/main/r-research/based-peptide-analysis/PXD020248/proteinGroups.txt)
+
+- [quantms output]().
+  - [mzTab](). 
+  - [msstats input]()
+
+## Scripts and Protocol used by each R-package 
+
+### MSstats
+
+
+### Proteus and limma
+
+### prolfqua
+
+### ProVision
+
+### LFQ-Analyst
+
+### Eatomics
+
+### DAPAR and ProStaR
+
+### MSqRob
+
+### Perseus
+
 
 ## Citation: 
 
