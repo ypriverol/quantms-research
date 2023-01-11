@@ -41,7 +41,7 @@ The following datasets were used to perform the analysis:
 
 ## Quantification Results
 
-### [PXD000279](https://github.com/ypriverol/quantms-research/tree/main/r-research/based-peptide-analysis/PXD000279)
+#### [PXD000279](https://github.com/ypriverol/quantms-research/tree/main/r-research/based-peptide-analysis/PXD000279)
 
 - MaxQuant output: [peptides.txt](https://github.com/ypriverol/quantms-research/blob/main/r-research/based-peptide-analysis/PXD000279/peptides.txt), [proteinGroups.txt](https://github.com/ypriverol/quantms-research/blob/main/r-research/based-peptide-analysis/PXD000279/proteinGroups.txt)
 
@@ -61,8 +61,7 @@ The following datasets were used to perform the analysis:
 
 ## Scripts and Protocol used by each R-package 
 
-### MSstats
-
+### MSstats
 
 ### Proteus and limma
 
