@@ -41,35 +41,35 @@ The following datasets were used to perform the analysis:
 
 ## Quantification Results
 
-### PXD000279 
+### [PXD000279](https://github.com/ypriverol/quantms-research/tree/main/r-research/based-peptide-analysis/PXD000279)
 
-- [MaxQuant output](https://github.com/ypriverol/quantms-research/tree/main/r-research/based-peptide-analysis/PXD000279). 
+- MaxQuant output
   - [peptides.txt](https://github.com/ypriverol/quantms-research/blob/main/r-research/based-peptide-analysis/PXD000279/peptides.txt)
   - [proteinGroups.txt](https://github.com/ypriverol/quantms-research/blob/main/r-research/based-peptide-analysis/PXD000279/proteinGroups.txt)
 
-- [quantms output](https://github.com/ypriverol/quantms-research/tree/main/datasets/LFQ-DDA/PXD000279/UniprotSwiss-MBR).
-  - [mzTab](). 
-  - [msstats input]()
+- quantms output
+  - [mzTab](https://github.com/ypriverol/quantms-research/blob/main/r-research/based-peptide-analysis/PXD000279/onlyPEP-filter-PXD000279.dynamic.sdrf_openms_design_openms.mzTab). 
+  - [msstats input](https://github.com/ypriverol/quantms-research/blob/main/r-research/based-peptide-analysis/PXD000279/out_msstats.csv)
 
-### PXD007145
+### [PXD007145](https://github.com/ypriverol/quantms-research/tree/main/r-research/based-peptide-analysis/PXD007145)
 
-- [MaxQuant output](https://github.com/ypriverol/quantms-research/tree/main/r-research/based-peptide-analysis/PXD007145). 
+- MaxQuant output 
   - [peptides.txt](https://github.com/ypriverol/quantms-research/blob/main/r-research/based-peptide-analysis/PXD007145/peptides.txt)
   - [proteinGroups.txt](https://github.com/ypriverol/quantms-research/blob/main/r-research/based-peptide-analysis/PXD007145/proteinGroups.txt)
 
-- [quantms output]().
-  - [mzTab](). 
-  - [msstats input]()
+- quantms output
+  - [mzTab](https://github.com/ypriverol/quantms-research/blob/main/r-research/based-peptide-analysis/PXD007145/only_pep_filterPXD007145-Th.sdrf_openms_design_openms.mzTab). 
+  - [msstats input](https://github.com/ypriverol/quantms-research/blob/main/r-research/based-peptide-analysis/PXD007145/out_msstats.csv)
 
-### PXD020248
+### [PXD020248](https://github.com/ypriverol/quantms-research/tree/main/r-research/based-peptide-analysis/PXD020248)
 
-- [MaxQuant output](https://github.com/ypriverol/quantms-research/tree/main/r-research/based-peptide-analysis/PXD020248). 
+- MaxQuant output 
   - [peptides.txt](https://github.com/ypriverol/quantms-research/blob/main/r-research/based-peptide-analysis/PXD020248/peptides.txt)
   - [proteinGroups.txt](https://github.com/ypriverol/quantms-research/blob/main/r-research/based-peptide-analysis/PXD020248/proteinGroups.txt)
 
-- [quantms output]().
-  - [mzTab](). 
-  - [msstats input]()
+- quantms output
+  - [mzTab](https://github.com/ypriverol/quantms-research/blob/main/r-research/based-peptide-analysis/PXD020248/onlyPEP-filter-PXD020248.mzTab). 
+  - [msstats input](https://github.com/ypriverol/quantms-research/blob/main/r-research/based-peptide-analysis/PXD020248/out_msstats.csv)
 
 ## Scripts and Protocol used by each R-package 
 
