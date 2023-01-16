@@ -150,7 +150,7 @@ shiny::runApp(system.file("App-MSqRob", package="MSqRob"))
 <hr>
 
 # msqrob2
-We use msqrob2 1.5.3 version, and both datasets are analyzed using the R scripts.
+We use msqrob2 1.5.3 version, and both datasets are analyzed using the R scripts. we did some manual conversions (from msstats_in file to msqrob2 input) beforehand to link quantms to msqrob2 (incompatible), different data conversion processes can potentially affect the results. We have tried different conversion steps, the [first](https://github.com/ypriverol/quantms-research/blob/main/r-research/based-peptide-analysis/PXD007145/PXD007145-for-msqrob2-3.mzTab) without any aggregation of abundance, the [second](https://github.com/ypriverol/quantms-research/blob/main/r-research/based-peptide-analysis/PXD007145/PXD007145-for-msqrob2.mzTab) with aggregation of a sequence with different charge only and the [third](https://github.com/ypriverol/quantms-research/blob/main/r-research/based-peptide-analysis/PXD007145/PXD007145-for-msqrob2-2.mzTab) with aggregation of both different charges and modifications. The conversion scripts can be found in [here](https://github.com/ypriverol/quantms-research/blob/main/r-research/based-peptide-analysis/quantms_conversion.py)
 
 ## PXD000279 dataset
 ```r
