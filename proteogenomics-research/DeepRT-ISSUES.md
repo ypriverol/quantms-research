@@ -33,9 +33,9 @@ We draw scatter plots of actual and predicted values to observe the effect.
 
 1. The training set was 9 and the test set was 1：
 
-    ![Methods 1](deepLC/Figure-1.png "Methods 1")
+    ![Methods 1](deepLC/Figure-1.png "Methods 1") Methods 1
 
-    ![Methods 2](deepLC/Figure-2.png "Methods 2")
+    ![Methods 2](deepLC/Figure-2.png "Methods 2") Methods 2
 
 2. The training set and test set are all canonical peptides：
 
