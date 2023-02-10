@@ -1,3 +1,7 @@
+# Dataset Analyzed
+
+The dataset used in this project is the result of the PXD014145 project filtered by spectrumAI (removing low confident mutations). The dataset description can be found in the following link: https://www.ebi.ac.uk/pride/archive/projects/PXD014145. 
+
 # DeepLC_Report
 
 In order to use DeepLC to predict the retention time of non-canonical peptides, we did a prediction of canonical peptide to see how the model works. All canonical peptides are divided into ten parts, nine for model calibration and one for prediction. I used two calibration model methods. At the same time, the direct prediction method of uncalibrated model is also used. Here are the results of the predicted canonical peptide.
