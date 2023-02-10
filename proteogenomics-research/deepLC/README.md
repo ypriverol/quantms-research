@@ -2,6 +2,12 @@
 
 The dataset used in this project is the result of the PXD014145 project filtered by spectrumAI (removing low confident mutations). The dataset description can be found in the following link: https://www.ebi.ac.uk/pride/archive/projects/PXD014145. 
 
+Dataset details: 
+- TMT dataset
+- Cells were lysed in 0.1% RapiGest SF (0.1M HEPES pH8) and protease inhibitors. Proteins were reduced using 5mM DTT and afterwards alkylated using 15 mM 2-Iodoacetamide (each at 37°C for 15 min). Two-step digestion was performed using trypsin in 1:25 enzmy:protein ration. 
+- TMT labelled samples were fractionated using an Waters reversed phase XBridge C18 column (150mm x 1mm column containing 3.5µm particles) on a Agilent1100 HPLC system. 
+- Q Exactive plus mass spectrometer coupled to EASY-nLC™ 1000 UHPLC system. 
+
 # DeepLC_Report
 
 In order to use DeepLC to predict the retention time of non-canonical peptides, we did a prediction of canonical peptide to see how the model works. All canonical peptides are divided into ten parts, nine for model calibration and one for prediction. I used two calibration model methods. At the same time, the direct prediction method of uncalibrated model is also used. Here are the results of the predicted canonical peptide.
