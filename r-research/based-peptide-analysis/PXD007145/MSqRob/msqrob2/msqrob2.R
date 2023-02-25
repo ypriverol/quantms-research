@@ -306,8 +306,7 @@ write.csv(rowData(pe10[["protein"]])$condition10, file = "PXD007145-10FC-maxquan
 ### quantms
 
 ## CM (center.median)
-#mzTab_pep = read.csv("./PXD007145/only_pep_filterPXD007145-Th.sdrf_openms_design_openms.mzTab", sep="\t")
-mzTab_pep = read.csv("./PXD007145/PXD007145-for-msqrob2-3.mzTab", sep="\t")
+mzTab_pep = read.csv("./PXD007145/PXD007145-for-msqrob2-2.mzTab", sep="\t")
 #mzTab_pep = mzTab_pep[mzTab_pep$opt_global_cv_MS.1002217_decoy_peptide == 0,]
 mzTab_pep = mzTab_pep[!grepl("DECOY", mzTab_pep$accession),]
 
@@ -357,15 +356,6 @@ colData(pe)$condition <- as.factor(c("1", "1", "1", "1", "1", "1",
                                       "4", "4", "4", "4", "4", "4",
                                       "10", "10", "10", "10", "10", "10"))
 
-ecols <- grep("sumIntensity_", names(mzTab_pep_sum))
-
-pe <- readQFeatures(
-  table = mzTab_pep_sum, fnames = 1, ecol = ecols,
-  name = "peptideRaw", sep = "\t"
-)
-
-
-colData(pe)$condition <- as.factor(c("1", "4", "10"))
 
 rowData(pe[["peptideRaw"]])$nNonZero <- rowSums(assay(pe[["peptideRaw"]]) > 0)
 pe <- zeroIsNA(pe, "peptideRaw") # convert 0 to NA
@@ -407,6 +397,7 @@ plotMDS(assay(pe[["protein"]]), col = as.numeric(colData(pe)$condition))
 
 pe <- msqrob2::msqrob(object = pe, i = "protein", formula = ~condition)
 
+
 getCoef(rowData(pe[["protein"]])$msqrobModels[[1]])
 
 L4 <- makeContrast("condition4=0", parameterNames = c("condition4"))
@@ -444,11 +435,12 @@ volcano
 write.csv(rowData(pe10[["protein"]])$condition10, file = "PXD007145-10FC-quantms-dep-CM.csv")
 
 
+assay(pe4[["protein"]])
+
 
 
 ## Q (quantile)
-#mzTab_pep = read.csv("./PXD007145/only_pep_filterPXD007145-Th.sdrf_openms_design_openms.mzTab", sep="\t")
-mzTab_pep = read.csv("./PXD007145/PXD007145-for-msqrob2-3.mzTab", sep="\t")
+mzTab_pep = read.csv("./PXD007145/PXD007145-for-msqrob2-2.mzTab", sep="\t")
 #mzTab_pep = mzTab_pep[mzTab_pep$opt_global_cv_MS.1002217_decoy_peptide == 0,]
 mzTab_pep = mzTab_pep[!grepl("DECOY", mzTab_pep$accession),]
 
@@ -579,8 +571,7 @@ write.csv(rowData(pe10[["protein"]])$condition10, file = "PXD007145-10FC-quantms
 
 
 ## NN (none)
-#mzTab_pep = read.csv("./PXD007145/only_pep_filterPXD007145-Th.sdrf_openms_design_openms.mzTab", sep="\t")
-mzTab_pep = read.csv("./PXD007145/PXD007145-for-msqrob2-3.mzTab", sep="\t")
+mzTab_pep = read.csv("./PXD007145/PXD007145-for-msqrob2-2.mzTab", sep="\t")
 #mzTab_pep = mzTab_pep[mzTab_pep$opt_global_cv_MS.1002217_decoy_peptide == 0,]
 mzTab_pep = mzTab_pep[!grepl("DECOY", mzTab_pep$accession),]
 
@@ -706,3 +697,4 @@ volcano <- ggplot(
 volcano
 
 write.csv(rowData(pe10[["protein"]])$condition10, file = "PXD007145-10FC-quantms-dep-NN.csv")
+
